@@ -221,7 +221,7 @@ function buildMatrixInputs() {
     for (let i = 0; i < n; i++) {
         html += '<tr>';
         for (let j = 0; j < n; j++) {
-            html += `<td><input type="number" step="any" id="m_${i}_${j}" placeholder="a${i + 1}${j + 1}" value="0"></td>`;
+            html += `<td><input type="text" step="any" id="m_${i}_${j}" placeholder="a${i + 1}${j + 1}" value="0"></td>`;
         }
         html += '<td class="divider">|</td>';
         html += `<td><input type="number" step="any" id="m_${i}_${n}" placeholder="b${i + 1}" value="0"></td>`;
